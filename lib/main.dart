@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
                     Text(
                       model.text,
                       style: TextStyle(
-                        fontSize: 20,
+                        fontSize: 16,
                       ),
                     ),
                     RaisedButton(

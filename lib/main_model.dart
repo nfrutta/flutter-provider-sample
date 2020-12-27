@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 class MainModel extends ChangeNotifier {
-  String text = 'ボタンを押すとこのテキストが変わります。';
+  String text = '下のボタンを押すとこのテキストの内容が変わります。';
 
   void changeText() {
-    text = '変更！';
+    text = 'ほらね、変わったでしょ😁';
     notifyListeners();
   }
 }
