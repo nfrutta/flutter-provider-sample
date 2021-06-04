@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
                         fontSize: 16,
                       ),
                     ),
-                    RaisedButton(
+                    ElevatedButton(
                       child: Text(
                         'ボタン',
                       ),
